@@ -61,7 +61,7 @@
 	</head>
 	<body>
 		
-		<audio id="myAudio" loop>
+		<audio id="myAudio" controls autoplay>
 			<source src="bgm.ogg" type="audio/ogg">
   			<source src="bgm.mp3" type="audio/mpeg">
 		</audio>
@@ -74,6 +74,10 @@
 		      $('#iframeAudio').remove()
 		    }
   		</script>
+		<script>
+                   var audio = document.getElementById("myAudio");
+                   audio.play(); // Start playing
+                   </script>
 
 <style>
 	.label-color{
@@ -532,11 +536,6 @@ function alertFunc() {
 
 			
 			</script>
-<script>
-   var audio = document.getElementById("myAudio");
-   audio.muted = true; // Mute the audio
-   audio.play(); // Start playing
-</script>
 
 	</body>
 </html>
