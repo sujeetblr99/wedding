@@ -93,8 +93,7 @@
 </style>
 
 
-	<div class="fh5co-loader"></div>
-	
+<div class="fh5co-loader"></div>	
 	<div id="page">
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
@@ -127,7 +126,7 @@
 							<h1>Sujeet &amp; Saumya</h1>
 							<h2>We Are Getting Married</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p> 
+							<p><a href="#fh5co-event" class="btn btn-default btn-sm">Save the date</a></p> 
 						</div>
 					</div>
 				</div>
@@ -180,29 +179,46 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Special Event</span>
-					<h2>Wedding Event</h2>
+					<span>Our Special Events</span>
+					<h2>Wedding Events</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="display-t">
 					<div class="display-tc">
 						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-12 col-sm-12 text-center">
+							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
 									<h3>Wedding Ceremony</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
 										<span>7:00 PM</span>
-										<span>At Basudeo Kutumbakam, Madhubani</span>
+										<span>11:00 PM</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Monday 27th</span>
+										<span>Monday 27</span>
 										<span>November, 2023</span>
 									</div>
+									<p>At Basudeo Kutumbakam, Madhubani</p>
 									<p>It's a speical moment for us. And your presence will make it precious.</p>
 									<!--<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>-->
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box">
+									<h3>Reception</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>7:00 PM</span>
+										<span>11:00 PM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Monday 04</span>
+										<span>December, 2023</span>
+									</div>
+									<p>Please Join us to celebrate our reception. At our residence. </p>
 								</div>
 							</div>
 						</div>
@@ -370,7 +386,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Are You Attending?</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+					<p>Please Fill-up the form to notify us that you're attending. Thanks.</p>
 				</div>
 			</div>
 			<div class="row animate-box">
@@ -400,13 +416,14 @@
 								<select name="event_drp" onchange="myFunction()" id="event_drp" class="form-control" style="font-weight: 600;color: #000;">
 								  <option value="All">All Events</option>
 								  <option value="marriage">Marriage</option>
+								  <option value="marriage">Reception</option>
 								</select>
 								<input type="hidden" class="form-control" id="event"  name="event">
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12 col-sm-3 text-center" style="margin-top: 3em;">
-								<button type="submit" class="btn btn-default" name="submit">I am Attending</button>
+								<button type="submit" class="btn btn-default" name="submit" id = "btn_submit">I am Attending</button>
 							</div>
 						</div>
 					</form>
@@ -436,7 +453,8 @@
 
 		</div>
 	</footer>
-	</div>
+    </div>
+</div>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
